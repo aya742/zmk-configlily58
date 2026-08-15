@@ -1,5 +1,8 @@
+# json-schema: https://zmk.dev
 include:
   - board: nice_nano_v2
     shield: lily58_left
+    snippets: [nice_oled] # 左側にねこちゃんを合体させる命令
   - board: nice_nano_v2
     shield: lily58_right
+    snippets: [nice_oled] # 右側にねこちゃんを合体させる命令
