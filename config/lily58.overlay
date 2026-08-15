@@ -3,3 +3,7 @@
         zephyr,display = &oled;
     };
 };
+
+&oled {
+    status = "okay";
+};
